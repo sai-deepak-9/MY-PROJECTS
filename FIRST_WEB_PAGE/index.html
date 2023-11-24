@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAH RUKH KHAN</title>
+    <style>
+        body{
+            height: 100vh;
+            background: url('/PROJECTS/FIRST_WEB_PAGE/images/bg.jpg');
+        }
+       
+        .left{
+          
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        .mid{
+            
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+        }
+        .right{
+           
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            padding: 2px 2px;
+            margin: 2px 2px;
+
+        }
+        ul li{
+            display: inline-block;
+            list-style: none;
+            padding: 0px 3px;
+            margin: 0px 22px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        ul li:hover{
+            text-decoration: underline;
+
+        }
+        img{
+            width: 100px;
+            
+        }
+        .cont{
+            height: 100px;
+            width: 900px;
+            margin: 75px auto;
+            padding: 215px 30px;
+            text-align: center;
+
+            
+        }
+        input{
+            font-weight: bold;
+text-align: center;
+width: 700px;
+margin: 5px 5px;
+padding: 5px 5px;
+border: 5px solid black;
+border-radius: 10px;
+       }
+      form{
+        margin:-179px 10px ;
+        padding: 10px 10px;
+      }
+      h1{
+        color: white;
+      }
+      
+     
+        
+    </style>
+</head>
+<body>
+   <header>
+    <div class="left"><img src="/PROJECTS/FIRST_WEB_PAGE/images/srk.png" alt="error"></div>
+    <div class="mid">
+<ul>
+    <li>home</li>
+    <li>about</li>
+    <li>contact</li>
+</ul>
+
+
+    </div>
+    <div class="right">
+        <button>call us</button>
+    </div>
+
+   </header> 
+   <div class="cont">
+       <form action="backend.php">
+        <h1> FILL THE DETAILS OF SRK</h1>
+        
+     <div>   <input type="text" id="name" placeholder=" SRK IS ALSO CALLED BY WHICH NAMES ? "> </div>
+     <div>  <input type="text" id="bday" placeholder="WHAT IS SRK'S BIRTH DATE"> </div>
+     <div>  <input type="number" id="age" placeholder="WHAT IS THE AGE OF SRk"> </div>
+      <div>  <input type="text"  id="wife" placeholder="TO WHOM IS SRK MARRIED TO ?"> </div>
+     <div>  <input type="text" id="son" placeholder="WHO IS THE ELDER SON OF SRK"> </div>
+     <div>  <input type="submit" value="submit"> </div>
+    </form>
+   </div>
+</body>
+</html>
